@@ -90,12 +90,12 @@ def pedir_datos_manuales():
 # elegir modo de entrada
 def menu_principal():
 
-    print("\n==========================================")
+    print("\n----")
     print(" crecimiento poblacional - serie taylor ")
-    print("==========================================")
-    print("\nelige una opcion:")
-    print("  1. usar caso de ejemplo")
-    print("  2. ingresar datos manualmente")
+    print("----")
+    print("\nelige una opcin:")
+    print("  1. Usar caso de ejemplo")
+    print("  2. Ingresar datos manualmente")
 
     opcion = input("\nopcion: ").strip()
 
@@ -314,9 +314,9 @@ def graficar_error_relativo(tiempos, resultados_por_n):
 # analisis final
 def imprimir_analisis(resultados_por_n):
 
-    print("\n==========================================")
+    print("\n----")
     print("analisis de resultados")
-    print("==========================================")
+    print("----")
 
     print("\nformula utilizada:")
     print("  e^x ≈ 1 + x + x^2/2! + x^3/3! + ... + x^(n-1)/(n-1)!")
